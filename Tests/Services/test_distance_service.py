@@ -7,7 +7,7 @@ from Tests.TestEnvironment import get_test_stores
 class DistanceServiceTests(unittest.TestCase):
     def test_get_stores_within_range_returns_every_store_in_one_mile_range(self):
 
-        a = [-0.301702, 51.460903]
+        a = (-0.301702, 51.460903)
         stores = get_test_stores()
 
         service = DistanceService()

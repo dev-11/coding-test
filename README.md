@@ -1,3 +1,12 @@
+## CI status
+
+[![Build Status](https://travis-ci.org/dev-11/coding-test.svg?branch=master)](https://travis-ci.org/dev-11/coding-test)
+[![codecov](https://codecov.io/gh/dev-11/coding-test/branch/master/graph/badge.svg)](https://codecov.io/gh/dev-11/coding-test)
+
+
+
+---
+
 # Tails coding test
 
 ## About this task

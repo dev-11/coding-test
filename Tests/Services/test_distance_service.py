@@ -25,7 +25,7 @@ class DistanceServiceTests(unittest.TestCase):
         stores = get_test_stores()
 
         service = DistanceService()
-        result = service.get_stores_within_range(a, stores, 1)
+        result = service.get_stores_within_range(a, stores, 5)
 
         self.assertEqual(len(result), 4)
 

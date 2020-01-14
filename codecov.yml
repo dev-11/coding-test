@@ -32,4 +32,6 @@ ignore:
   - "**/config.py"
   - "config.py"
   - "**/__init__.py"
-  - "**/ExternalServices/**.py"
+  - "**/ExternalServices/*.py"
+  - "app.py"
+

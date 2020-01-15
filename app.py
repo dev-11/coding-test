@@ -28,6 +28,7 @@ def near_me(postcode, distance):
     given_location = postcode_geolocation['latitude'], postcode_geolocation['longitude']
 
     stores_near = DistanceService.get_stores_within_range(given_location, stores, distance)
+    stores_near.sort(key=lambda s: s['geolocation']['latitude'], reverse=True)
 
     return jsonify(stores_near)
 

@@ -1,6 +1,6 @@
 ## CI status
 
-[![Build Status](https://travis-ci.org/dev-11/coding-test.svg?branch=master)](https://travis-ci.org/dev-11/coding-test)
+[![Build Status](https://travis-ci.com/dev-11/coding-test.svg?branch=master)](https://travis-ci.com/dev-11/coding-test)
 [![codecov](https://codecov.io/gh/dev-11/coding-test/branch/master/graph/badge.svg)](https://codecov.io/gh/dev-11/coding-test)
 
 
